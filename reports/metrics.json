@@ -1,0 +1,457 @@
+{
+  "my_split": {
+    "val": {
+      "n": 567,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "per_class": {
+        "Capsicum": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 76.0
+        },
+        "Carrot": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 136.0
+        },
+        "Cucumber": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 50.0
+        },
+        "Potato": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 50.0
+        },
+        "Raddish": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 50.0
+        },
+        "Squash": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 205.0
+        }
+      }
+    },
+    "test": {
+      "n": 1060,
+      "accuracy": 0.8538,
+      "macro_f1": 0.8411,
+      "per_class": {
+        "Capsicum": {
+          "precision": 0.8843,
+          "recall": 0.6257,
+          "f1-score": 0.7329,
+          "support": 171.0
+        },
+        "Carrot": {
+          "precision": 0.9832,
+          "recall": 0.9105,
+          "f1-score": 0.9455,
+          "support": 257.0
+        },
+        "Cucumber": {
+          "precision": 0.4832,
+          "recall": 0.8984,
+          "f1-score": 0.6284,
+          "support": 128.0
+        },
+        "Potato": {
+          "precision": 1.0,
+          "recall": 0.7379,
+          "f1-score": 0.8492,
+          "support": 103.0
+        },
+        "Raddish": {
+          "precision": 0.9023,
+          "recall": 0.9836,
+          "f1-score": 0.9412,
+          "support": 122.0
+        },
+        "Squash": {
+          "precision": 0.9961,
+          "recall": 0.9068,
+          "f1-score": 0.9493,
+          "support": 279.0
+        }
+      }
+    },
+    "test_only_frames": {
+      "n": 1017,
+      "accuracy": 0.8496,
+      "macro_f1": 0.8364,
+      "per_class": {
+        "Capsicum": {
+          "precision": 0.8929,
+          "recall": 0.6098,
+          "f1-score": 0.7246,
+          "support": 164.0
+        },
+        "Carrot": {
+          "precision": 0.9828,
+          "recall": 0.9084,
+          "f1-score": 0.9441,
+          "support": 251.0
+        },
+        "Cucumber": {
+          "precision": 0.4788,
+          "recall": 0.904,
+          "f1-score": 0.626,
+          "support": 125.0
+        },
+        "Potato": {
+          "precision": 1.0,
+          "recall": 0.7245,
+          "f1-score": 0.8402,
+          "support": 98.0
+        },
+        "Raddish": {
+          "precision": 0.8898,
+          "recall": 0.9813,
+          "f1-score": 0.9333,
+          "support": 107.0
+        },
+        "Squash": {
+          "precision": 0.996,
+          "recall": 0.9081,
+          "f1-score": 0.95,
+          "support": 272.0
+        }
+      }
+    },
+    "test_only_photos": {
+      "n": 43,
+      "accuracy": 0.9535,
+      "macro_f1": 0.933,
+      "per_class": {
+        "Capsicum": {
+          "precision": 0.7778,
+          "recall": 1.0,
+          "f1-score": 0.875,
+          "support": 7.0
+        },
+        "Carrot": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 6.0
+        },
+        "Cucumber": {
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1-score": 0.8,
+          "support": 3.0
+        },
+        "Potato": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 5.0
+        },
+        "Raddish": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 15.0
+        },
+        "Squash": {
+          "precision": 1.0,
+          "recall": 0.8571,
+          "f1-score": 0.9231,
+          "support": 7.0
+        }
+      }
+    },
+    "test_confusion_matrix": [
+      [
+        107,
+        0,
+        63,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        234,
+        10,
+        0,
+        13,
+        0
+      ],
+      [
+        13,
+        0,
+        115,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        25,
+        76,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        120,
+        0
+      ],
+      [
+        1,
+        0,
+        25,
+        0,
+        0,
+        253
+      ]
+    ],
+    "test_errors_by_day": {
+      "Capsicum 20251117 -> Cucumber": 63,
+      "Capsicum 20251117 -> Squash": 1,
+      "Carrot 20251113 -> Cucumber": 10,
+      "Carrot 20251113 -> Raddish": 13,
+      "Cucumber 20260101 -> Capsicum": 13,
+      "Potato 20251113 -> Carrot": 2,
+      "Potato 20251113 -> Cucumber": 25,
+      "Raddish 20251210 -> Carrot": 2,
+      "Squash 20251113 -> Capsicum": 1,
+      "Squash 20251113 -> Cucumber": 25
+    },
+    "test_errors_by_group": {
+      "Capsicum_video_20251117_134205": "64/164",
+      "Potato_video_20251113_205825": "27/98",
+      "Squash_video_20251113_210502": "25/272",
+      "Carrot_video_20251113_210803": "19/200",
+      "Cucumber_video_20260101_132322": "12/125",
+      "Carrot_video_20251113_210822": "4/24",
+      "Raddish_video_20251210_230730": "2/107",
+      "Cucumber_photos_20260101_0": "1/3",
+      "Squash_photos_20251113_1": "1/3"
+    },
+    "test_errors_conf_over_0.9": 51
+  },
+  "author_split": {
+    "test": {
+      "n": 799,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "per_class": {
+        "Capsicum": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 117.0
+        },
+        "Carrot": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 177.0
+        },
+        "Cucumber": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 58.0
+        },
+        "Potato": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 114.0
+        },
+        "Raddish": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 79.0
+        },
+        "Squash": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 254.0
+        }
+      }
+    },
+    "test_confusion_matrix": [
+      [
+        117,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        177,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        58,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        114,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        79,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        254
+      ]
+    ]
+  },
+  "robustness_test": {
+    "clean": {
+      "accuracy": 0.8538,
+      "macro_f1": 0.8411,
+      "mean_confidence": 0.8756
+    },
+    "darker": {
+      "accuracy": 0.8915,
+      "macro_f1": 0.8823,
+      "mean_confidence": 0.8645
+    },
+    "warm_light": {
+      "accuracy": 0.8,
+      "macro_f1": 0.7835,
+      "mean_confidence": 0.8669
+    },
+    "blur": {
+      "accuracy": 0.8132,
+      "macro_f1": 0.7185,
+      "mean_confidence": 0.8621
+    },
+    "jpeg_q15": {
+      "accuracy": 0.8123,
+      "macro_f1": 0.7897,
+      "mean_confidence": 0.7652
+    },
+    "zoom_out": {
+      "accuracy": 0.8075,
+      "macro_f1": 0.7532,
+      "mean_confidence": 0.8231
+    }
+  },
+  "gradcam_examples": [
+    {
+      "file": "20251113_210502_frame_6.jpg",
+      "true": "Squash",
+      "pred": "Cucumber",
+      "conf": 0.956
+    },
+    {
+      "file": "20260101_132322_frame_43.jpg",
+      "true": "Cucumber",
+      "pred": "Capsicum",
+      "conf": 0.934
+    },
+    {
+      "file": "20251113_210803_frame_12.jpg",
+      "true": "Carrot",
+      "pred": "Raddish",
+      "conf": 0.448
+    },
+    {
+      "file": "20251113_205825_frame_7.jpg",
+      "true": "Potato",
+      "pred": "Cucumber",
+      "conf": 0.887
+    },
+    {
+      "file": "20251117_134205_frame_128.jpg",
+      "true": "Capsicum",
+      "pred": "Cucumber",
+      "conf": 0.964
+    },
+    {
+      "file": "20251117_134205_frame_163.jpg",
+      "true": "Capsicum",
+      "pred": "Capsicum",
+      "conf": 0.998
+    },
+    {
+      "file": "20251113_210832.jpg",
+      "true": "Carrot",
+      "pred": "Carrot",
+      "conf": 1.0
+    },
+    {
+      "file": "20260101_132322_frame_14.jpg",
+      "true": "Cucumber",
+      "pred": "Cucumber",
+      "conf": 0.989
+    },
+    {
+      "file": "20251113_205838.jpg",
+      "true": "Potato",
+      "pred": "Potato",
+      "conf": 0.993
+    },
+    {
+      "file": "20251210_230730_frame_31.jpg",
+      "true": "Raddish",
+      "pred": "Raddish",
+      "conf": 0.996
+    }
+  ],
+  "cpu_timing": {
+    "model_load_sec": 0.125,
+    "torch_threads": 12,
+    "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "torch": "2.14.1+cu126",
+    "frames_200x200": {
+      "n": 100,
+      "total_ms_mean": 22.8,
+      "total_ms_median": 22.7,
+      "model_only_ms_mean": 20.4
+    },
+    "full_photos": {
+      "n": 43,
+      "total_ms_mean": 153.4,
+      "total_ms_median": 153.5,
+      "model_only_ms_mean": 21.6
+    }
+  }
+}
